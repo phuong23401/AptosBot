@@ -1,0 +1,11 @@
+{
+  "name": "AptosBot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:phuong23401/AptosBot.git",
+  "author": "phuong23401 <hoaphuong23401@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@aptos-labs/ts-sdk": "^1.13.1"
+  }
+}
