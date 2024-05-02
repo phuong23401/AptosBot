@@ -7,10 +7,6 @@ const ledgerInfo = await aptos.getLedgerInfo()
 const modules = await aptos.getAccountModules({ accountAddress: '0x123' })
 const tokens = await aptos.getAccountOwnedTokens({ accountAddress: '0x123' })
 
-console.log(ledgerInfo)
-console.log(modules)
-console.log(tokens)
-
 const alice: Account = Account.generate()
 
 await aptos.fundAccount({
@@ -29,4 +25,7 @@ const transaction = await aptos.transaction.build.simple({
   },
 })
 
+console.log(ledgerInfo)
+console.log(modules)
+console.log(tokens)
 console.log(transaction)
