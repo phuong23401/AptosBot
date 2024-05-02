@@ -28,3 +28,5 @@ const transaction = await aptos.transaction.build.simple({
     functionArguments: [bobAddress, 100],
   },
 })
+
+console.log(transaction)
