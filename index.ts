@@ -25,7 +25,7 @@ const transaction = await aptos.transaction.build.simple({
   },
 })
 
+console.log(transaction)
 console.log(tokens)
 console.log(modules)
 console.log(ledgerInfo)
-console.log(transaction)
